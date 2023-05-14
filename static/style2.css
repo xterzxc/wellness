@@ -104,11 +104,17 @@ body {
     width: 1000px;
     grid-template-columns: 1fr 280px;
   }
+  .sidebar {
+    height: 80%;
+  }
 }
 @media (max-width: 1000px) {
   .adaptive {
     width: 768px;
     grid-template-columns: 1fr 250px;
+  }
+  .sidebar {
+    height: 80%;
   }
 }
 @media (max-width: 768px) {

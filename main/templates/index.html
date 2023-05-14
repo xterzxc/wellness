@@ -59,7 +59,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Great+Vibes&family=Lato:wght@300&family=Playfair+Display&display=swap" rel="stylesheet">     
         <link rel="shortcut icon" type="image/png" href="{% static '/favicon.ico' %}"/>
         <link rel="stylesheet" type='text/css' href="{% static '/style.css' %}">
-        <link rel="stylesheet" type='text/css' href="{% static '/media.css' %}">
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
 
         <meta charset="UTF-8">
@@ -113,7 +112,7 @@
     {% if request.user_agent.is_mobile %}
     {% else %}
     <div class='footer'>
-     <p class='contacts'>Contract number: 4534025</p><p class='contacts'>Liudmyla Lavrinenko</p><p class='contacts'></p><p class='contacts'>ludmila.lavrinenko283@gmail.com</p>
+     <p class='contacts'>Contract number: 4534025</p><p class='contacts'>Liudmyla Lavrinenko</p><p class='contacts'>ludmila.lavrinenko283@gmail.com</p>
     </div>
     {% endif %}
   {% endif %}
