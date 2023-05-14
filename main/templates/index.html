@@ -22,13 +22,13 @@
     <h1 class="title">Wellness</h1>
     <div class="adaptive">
       <main class="main">{% trans 'MainText' %} <br><br>
-        Contract number: 4534025 <br> Liudmyla Lavrinenko<br>  + 421 995 558 218 <br> ludmila.lavrinenko283@gmail.com</p>
+        Contract number: 4534025 <br> Liudmyla Lavrinenko <br> ludmila.lavrinenko283@gmail.com</p>
       </main>
     <div class="sidebar">
         <a href="https://cz.siberianhealth.com/cz/?referral=4534025" class='btn'>{% trans "RegistrationMessage" %}</a>
         <a href="https://cz.siberianhealth.com/cz/shop/user/registration/PRIVILEGED_CLIENT/?referral=4534025" class='btn'>{% trans "ShopMessage" %}</a>
         <div class="dropdown">
-          <div class="dropbtn">{% trans "ChangeLanguage" %}
+          <div class="dropbtn">Language
           </div>
           <div class="dropdown-content">
             {% get_current_language as LANGUAGE_CODE %}
@@ -103,7 +103,7 @@
       <div class='text2'>
         <span>{% trans 'Text2Message' %}</span>
       <div class='text3'>
-      <span>{% trans 'Text3Message' %} {% if request.user_agent.is_mobile %} <br>+ 421 995 558 218 {%endif%}</span>
+      <span>{% trans 'Text3Message' %}</span>
       </div>
       </div>
         <a href="https://cz.siberianhealth.com/cz/?referral=4534025" class="btn1">{% trans 'ShopMessage' %}</a>
@@ -113,7 +113,7 @@
     {% if request.user_agent.is_mobile %}
     {% else %}
     <div class='footer'>
-     <p class='contacts'>Contract number: 4534025</p><p class='contacts'>Liudmyla Lavrinenko</p><p class='contacts'> + 421 995 558 218 </p><p class='contacts'>ludmila.lavrinenko283@gmail.com</p>
+     <p class='contacts'>Contract number: 4534025</p><p class='contacts'>Liudmyla Lavrinenko</p><p class='contacts'></p><p class='contacts'>ludmila.lavrinenko283@gmail.com</p>
     </div>
     {% endif %}
   {% endif %}
