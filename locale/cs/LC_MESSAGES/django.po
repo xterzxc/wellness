@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-11 23:25+0200\n"
+"POT-Creation-Date: 2023-05-14 15:14+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1228,12 +1228,28 @@ msgstr ""
 msgid "Connect, get help, or contribute"
 msgstr ""
 
-#: .\main\templates\index.html:56
+#: .\main\templates\index.html:24
+msgid "MainText"
+msgstr "KAŽDÝ ROZUMNÝ ČLOVĚK SI CHCE UCHOVAT A UDRŽET ZDRAVÍ, MLÁDÍ A KRÁSU, AKTIVNĚ PRACOVAT A DOSAHOVAT ÚSPĚŠNÝCH CÍLŮ V ŽIVOTĚ, PRÁCI I SPORTU. S VYUŽITÍM PŘÍRODNÍCH ZDROJŮ SIBIŘE DOSÁHLO MNOHO SPORTOVCŮ SVĚTOVÝCH VÍTĚZSTVÍ. MILIONY LIDÍ SI UDRŽELY ZDRAVÍ A VYŠLY Z NEMOCÍ. NAŠE PRODUKTY PODPORUJÍ LÉČBU LÉKAŘŮ A JE TO VIDĚT NA VÝSLEDCÍCH VYŠETŘENÍ. JIŽ 27 LET PRACUJE NAŠE VĚDECKÁ RADA NA ZLEPŠOVÁNÍ SLOŽENÍ NAŠICH VÝROBKŮ A ÚČINNOSTI JEJICH PŮSOBENÍ NA ORGANISMUS. KDYŽ SI OTEVŘETE VÝROBEK V NAŠEM E-SHOPU, MŮŽETE SI O NĚM PŘEČÍST A PROHLÉDNOUT SI JEHO EVROPSKÝ CERTIFIKÁT. NEVÁHEJTE NÁS KONTAKTOVAT, POKUD MÁTE JAKÉKOLI DOTAZY. VÁŠ PORADCE - LUDMILA LAVRINENKO."
+
+#: .\main\templates\index.html:28 .\main\templates\index.html:110
+msgid "RegistrationMessage"
+msgstr "REGISTRACE"
+
+#: .\main\templates\index.html:29 .\main\templates\index.html:109
+msgid "ShopMessage"
+msgstr "OBCHOD"
+
+#: .\main\templates\index.html:31
+msgid "ChangeLanguage"
+msgstr "změna jazyka"
+
+#: .\main\templates\index.html:99
 msgid "WelcomeHeading"
 msgstr ""
 "NABÍZÍME BIOLOGICKY AKTIVNÍ PRODUKTY ZE SIBIŘSKÉ PŘÍRODY PRO DOSPĚLÉ I DĚTI."
 
-#: .\main\templates\index.html:58
+#: .\main\templates\index.html:101
 msgid "Text1Message"
 msgstr ""
 "KAŽDÝ ZDRAVÝ ČLOVĚK SI CHCE UCHOVAT A UDRŽET ZDRAVÍ, MLÁDÍ A KRÁSU, AKTIVNĚ "
@@ -1242,7 +1258,7 @@ msgstr ""
 "MILIONY LIDÍ SI ZACHOVALY ZDRAVÍ A DOSTALY SE Z NEMOCI. NAŠE PRODUKTY "
 "PODPORUJÍ LÉČBU LÉKAŘŮ A JE TO VIDĚT NA VÝSLEDCÍCH JEJICH VYŠETŘENÍ."
 
-#: .\main\templates\index.html:61
+#: .\main\templates\index.html:104
 msgid "Text2Message"
 msgstr ""
 "JIŽ 27 LET PRACUJE NAŠE VĚDECKÁ RADA NA ZLEPŠENÍ SLOŽENÍ NAŠICH VÝROBKŮ, "
@@ -1250,17 +1266,9 @@ msgstr ""
 "INTERNETOVÉM OBCHODĚ, MŮŽETE SI O NĚM PŘEČÍST A PROHLÉDNOUT SI JEHO EVROPSKÝ "
 "CERTIFIKÁT. NEVÁHEJTE NÁS KONTAKTOVAT, POKUD MÁTE JAKÉKOLI DOTAZY."
 
-#: .\main\templates\index.html:63
+#: .\main\templates\index.html:106
 msgid "Text3Message"
 msgstr "VÁŠ KONZULTANT LIUDMYLA LAVRINENKO."
-
-#: .\main\templates\index.html:66
-msgid "ShopMessage"
-msgstr "OBCHOD"
-
-#: .\main\templates\index.html:67
-msgid "RegistrationMessage"
-msgstr "REGISTRACE"
 
 #: .\main\views.py:11
 msgid "StatusMsg"

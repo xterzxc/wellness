@@ -1,6 +1,54 @@
 {% load static %}
 {% load i18n %}
+{% if request.user_agent.is_mobile%}
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" type="image/png" href="{% static '/favicon.ico' %}"/>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Great+Vibes&family=Lato:wght@300&family=Playfair+Display&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="{% static '\style2.css' %}" />
+    <title>Wellness</title>
+  </head>
+  <style>
+    body {
+      background: url('{% static 'les.jpg' %}') top center;
+     }
+  </style>
+  <body>
+    <h1 class="title">Wellness</h1>
+    <div class="adaptive">
+      <main class="main">{% trans 'MainText' %} <br><br>
+        Contract number: 4534025 <br> Liudmyla Lavrinenko<br>  + 421 995 558 218 <br> ludmila.lavrinenko283@gmail.com</p>
+      </main>
+    <div class="sidebar">
+        <a href="https://cz.siberianhealth.com/cz/?referral=4534025" class='btn'>{% trans "RegistrationMessage" %}</a>
+        <a href="https://cz.siberianhealth.com/cz/shop/user/registration/PRIVILEGED_CLIENT/?referral=4534025" class='btn'>{% trans "ShopMessage" %}</a>
+        <div class="dropdown">
+          <div class="dropbtn">{% trans "ChangeLanguage" %}
+          </div>
+          <div class="dropdown-content">
+            {% get_current_language as LANGUAGE_CODE %}
+            {% get_available_languages as LANGUAGES %}
+            {% get_language_info_list for LANGUAGES as languages %}
+            {% for language in languages %}
 
+            <a href="/{{ language.code }}{{ request.get_full_path|slice:'3:' }}"
+            class="{% if language.code == LANGUAGE_CODE %}selected{% endif %}"
+            lang="{{ language.code }}"><img src={% for lang in langs %}  {% endfor %}>
+             {{ language.name_local }}
+           </a>
+           {% endfor %}
+          </div>
+        </div>
+      </div>
+  </body>
+  </html>
+
+{% else %}
 <!DOCTYPE html>
 <html>
     <head>
@@ -20,11 +68,6 @@
       body {
         background: url('{% static 'les.jpg' %}') top center;
        }
-      {% if request.user_agent.is_mobile %}
-      body {
-        overflow-x: hidden;
-      }
-      {% endif %}
     </style>
 
 <body>
@@ -70,9 +113,9 @@
     {% if request.user_agent.is_mobile %}
     {% else %}
     <div class='footer'>
-     <p class='contacts'>Contract number: 4534025</p> <p class='contacts'>Liudmyla Lavrinenko</p><p class='contacts'> + 421 995 558 218 </p><p class='contacts'>ludmila.lavrinenko283@gmail.com</p>
+     <p class='contacts'>Contract number: 4534025</p><p class='contacts'>Liudmyla Lavrinenko</p><p class='contacts'> + 421 995 558 218 </p><p class='contacts'>ludmila.lavrinenko283@gmail.com</p>
     </div>
     {% endif %}
+  {% endif %}
 </body>
-
 </html>

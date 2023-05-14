@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-11 23:26+0200\n"
+"POT-Creation-Date: 2023-05-14 15:14+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1227,13 +1227,29 @@ msgstr ""
 msgid "Connect, get help, or contribute"
 msgstr ""
 
-#: .\main\templates\index.html:56
+#: .\main\templates\index.html:24
+msgid "MainText"
+msgstr "JEDER VERNÜNFTIGE MENSCH MÖCHTE SEINE GESUNDHEIT, JUGEND UND SCHÖNHEIT BEWAHREN UND ERHALTEN, AKTIV ARBEITEN UND ERFOLGREICHE ZIELE IM LEBEN, IM BERUF UND IM SPORT ERREICHEN. MIT DEN NATÜRLICHEN RESSOURCEN SIBIRIENS HABEN VIELE SPORTLER WELTSIEGE ERRUNGEN. MILLIONEN VON MENSCHEN HABEN IHRE GESUNDHEIT ERHALTEN UND KRANKHEITEN ÜBERWUNDEN. UNSERE PRODUKTE UNTERSTÜTZEN DIE BEHANDLUNG DER ÄRZTE, WAS SICH IN DEN ERGEBNISSEN DER UNTERSUCHUNGEN WIDERSPIEGELT. SEIT 27 JAHREN ARBEITET UNSER WISSENSCHAFTLICHER BEIRAT DARAN, DIE ZUSAMMENSETZUNG UNSERER PRODUKTE UND DIE WIRKSAMKEIT IHRER WIRKUNG AUF DEN KÖRPER ZU VERBESSERN. WENN SIE EIN PRODUKT IN UNSEREM E-SHOP ÖFFNEN, KÖNNEN SIE MEHR DARÜBER LESEN UND SEIN EUROPÄISCHES ZERTIFIKAT SEHEN. WENN SIE FRAGEN HABEN, KÖNNEN SIE SICH GERNE AN UNS WENDEN. IHRE BERATERIN - LUDMILA LAVRINENKO."
+
+#: .\main\templates\index.html:28 .\main\templates\index.html:110
+msgid "RegistrationMessage"
+msgstr "REGISTRIERUNG"
+
+#: .\main\templates\index.html:29 .\main\templates\index.html:109
+msgid "ShopMessage"
+msgstr "SHOP"
+
+#: .\main\templates\index.html:31
+msgid "ChangeLanguage"
+msgstr "sprache wechseln"
+
+#: .\main\templates\index.html:99
 msgid "WelcomeHeading"
 msgstr ""
 "WIR BIETEN BIOLOGISCH AKTIVE PRODUKTE AUS DER SIBIRISCHEN NATUR FÜR "
 "ERWACHSENE UND KINDER AN"
 
-#: .\main\templates\index.html:58
+#: .\main\templates\index.html:101
 msgid "Text1Message"
 msgstr ""
 "JEDER GESUNDE MENSCH MÖCHTE SEINE GESUNDHEIT, JUGEND UND SCHÖNHEIT BEWAHREN "
@@ -1244,7 +1260,7 @@ msgstr ""
 "PRODUKTE UNTERSTÜTZEN DIE BEHANDLUNG DER ÄRZTE, WAS SICH IN DEN ERGEBNISSEN "
 "IHRER UNTERSUCHUNGEN WIDERSPIEGELT. "
 
-#: .\main\templates\index.html:61
+#: .\main\templates\index.html:104
 msgid "Text2Message"
 msgstr ""
 "SEIT 27 JAHREN ARBEITET UNSER WISSENSCHAFTLICHER RAT DARAN, DIE "
@@ -1253,17 +1269,9 @@ msgstr ""
 "KÖNNEN SIE MEHR DARÜBER LESEN UND SEIN EUROPÄISCHES ZERTIFIKAT SEHEN. WENN "
 "SIE FRAGEN HABEN, KÖNNEN SIE SICH GERNE AN UNS WENDEN."
 
-#: .\main\templates\index.html:63
+#: .\main\templates\index.html:106
 msgid "Text3Message"
 msgstr "IHR BERATER - LIUDMYLA LAVRINENKO."
-
-#: .\main\templates\index.html:66
-msgid "ShopMessage"
-msgstr "SHOP"
-
-#: .\main\templates\index.html:67
-msgid "RegistrationMessage"
-msgstr "REGISTRIERUNG"
 
 #: .\main\views.py:11
 msgid "StatusMsg"

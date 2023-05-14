@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-11 23:26+0200\n"
+"POT-Creation-Date: 2023-05-14 15:14+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1230,13 +1230,29 @@ msgstr ""
 msgid "Connect, get help, or contribute"
 msgstr ""
 
-#: .\main\templates\index.html:56
+#: .\main\templates\index.html:24
+msgid "MainText"
+msgstr "КОЖНА РОЗСУДЛИВА ЛЮДИНА БАЖАЄ ЗБЕРЕГТИ І ПІДТРИМАТИ СВОЄ ЗДОРОВ'Я, МОЛОДІСТЬ І КРАСУ, АКТИВНО ПРАЦЮВАТИ, ДОСЯГАТИ УСПІШНИХ ЦІЛЕЙ У ЖИТТІ, ПРАЦІ, СПОРТІ. ВИКОРИСТОВУЮЧИ ПРИРОДНІ РЕСУРСИ СИБІРУ, БАГАТО СПОРТСМЕНІВ ДОМОГЛИСЯ СВІТОВИХ ПЕРЕМОГ. МІЛЬЙОНИ ЛЮДЕЙ ПІДТРИМАЛИ СВОЄ ЗДОРОВ'Я, І ВИЙШЛИ З ХВОРОБИ. НАШІ ПРОДУКТИ ПІДТРИМУЮТЬ ЛІКУВАННЯ ЛІКАРІВ І ЦЕ ВИДНО НА РЕЗУЛЬТАТАХ ОБСТЕЖЕНЬ. ПРОТЯГОМ 27 РОКІВ ВЧЕНА РАДА ПРАЦЮЄ НАД УДОСКОНАЛЕННЯМ СКЛАДУ ПРОДУКТІВ, ЕФЕКТИВНІСТЮ ДІЇ НА ОРГАНІЗМ. В ІНТЕРНЕТ МАГАЗИНІ, ВІДКРИВШИ ПРОДУКТ, ПРОЧИТАЄТЕ ПРО НЬОГО І ПОБАЧИТЕ ЄВРОПЕЙСЬКИЙ СЕРТИФІКАТ. ЗВЕРТАЙТЕСЯ З БУДЬ-ЯКОГО ПИТАННЯ. ВАШ КОНСУЛЬТАНТ - ЛЮДМИЛА ЛАВРІНЕНКО."
+
+#: .\main\templates\index.html:28 .\main\templates\index.html:110
+msgid "RegistrationMessage"
+msgstr "РЕЄСТРАЦІЯ"
+
+#: .\main\templates\index.html:29 .\main\templates\index.html:109
+msgid "ShopMessage"
+msgstr "МАГАЗИН"
+
+#: .\main\templates\index.html:31
+msgid "ChangeLanguage"
+msgstr "Змінити мову"
+
+#: .\main\templates\index.html:99
 msgid "WelcomeHeading"
 msgstr ""
 "МИ ПРОПОНУЄМО БІОЛОГІЧНО АКТИВНІ ПРОДУКТИ З ПРИРОДИ СИБІРУ ДЛЯ ДОРОСЛИХ І "
 "ДІТЕЙ."
 
-#: .\main\templates\index.html:58
+#: .\main\templates\index.html:101
 msgid "Text1Message"
 msgstr ""
 "КОЖНА РОЗСУДЛИВА ЛЮДИНА БАЖАЄ ЗБЕРЕГТИ І ПІДТРИМАТИ СВОЄ ЗДОРОВ'Я, МОЛОДІСТЬ "
@@ -1246,7 +1262,7 @@ msgstr ""
 "ХВОРОБИ. НАШІ ПРОДУКТИ ПІДТРИМУЮТЬ ЛІКУВАННЯ ЛІКАРІВ І ЦЕ ВИДНО НА "
 "РЕЗУЛЬТАТАХ ОБСТЕЖЕНЬ."
 
-#: .\main\templates\index.html:61
+#: .\main\templates\index.html:104
 msgid "Text2Message"
 msgstr ""
 "ПРОТЯГОМ 27 РОКІВ ВЧЕНА РАДА ПРАЦЮЄ НАД УДОСКОНАЛЕННЯМ СКЛАДУ ПРОДУКТІВ, "
@@ -1254,17 +1270,9 @@ msgstr ""
 "ПРОЧИТАЄТЕ ПРО НЬОГО І ПОБАЧИТЕ ЄВРОПЕЙСЬКИЙ СЕРТИФІКАТ. ЗВЕРТАЙТЕСЯ З БУДЬ-"
 "ЯКОГО ПИТАННЯ."
 
-#: .\main\templates\index.html:63
+#: .\main\templates\index.html:106
 msgid "Text3Message"
 msgstr "ВАШ КОНСУЛЬТАНТ - ЛЮДМИЛА ЛАВРІНЕНКО."
-
-#: .\main\templates\index.html:66
-msgid "ShopMessage"
-msgstr "МАГАЗИН"
-
-#: .\main\templates\index.html:67
-msgid "RegistrationMessage"
-msgstr "РЕЄСТРАЦІЯ"
 
 #: .\main\views.py:11
 msgid "StatusMsg"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-11 23:26+0200\n"
+"POT-Creation-Date: 2023-05-14 15:14+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1227,13 +1227,29 @@ msgstr ""
 msgid "Connect, get help, or contribute"
 msgstr ""
 
-#: .\main\templates\index.html:56
+#: .\main\templates\index.html:24
+msgid "MainText"
+msgstr "EVERY SANE PERSON WANTS TO PRESERVE AND MAINTAIN THEIR HEALTH, YOUTH AND BEAUTY, TO WORK ACTIVELY, TO ACHIEVE SUCCESSFUL GOALS IN LIFE, WORK AND SPORTS. USING NATURAL RESOURCES OF SIBERIA MANY ATHLETES HAVE ACHIEVED WORLD VICTORIES. MILLIONS OF PEOPLE HAVE MAINTAINED THEIR HEALTH, AND COME OUT OF THE DISEASE. OUR PRODUCTS SUPPORT THE TREATMENT OF DOCTORS AND IT IS EVIDENT IN THE RESULTS OF EXAMINATIONS. FOR 27 YEARS, THE SCIENTIFIC COUNCIL HAS BEEN WORKING ON THE IMPROVEMENT OF THE COMPOSITION OF THE PRODUCTS, THE EFFECTIVENESS OF THEIR ACTION ON THE BODY. IN OUR ONLINE STORE, WHEN YOU OPEN A PRODUCT, YOU CAN READ ABOUT IT AND SEE ITS EUROPEAN CERTIFICATE. CONTACT US IF YOU HAVE ANY QUESTIONS. YOUR CONSULTANT - LUDMILA LAVRINENKO."
+
+#: .\main\templates\index.html:28 .\main\templates\index.html:110
+msgid "RegistrationMessage"
+msgstr "REGISTRATION"
+
+#: .\main\templates\index.html:29 .\main\templates\index.html:109
+msgid "ShopMessage"
+msgstr "SHOP"
+
+#: .\main\templates\index.html:31
+msgid "ChangeLanguage"
+msgstr "Switch language"
+
+#: .\main\templates\index.html:99
 msgid "WelcomeHeading"
 msgstr ""
 "WE OFFER BIOLOGICALLY ACTIVE PRODUCTS FROM THE NATURE OF SIBERIA FOR ADULTS "
 "AND CHILDREN"
 
-#: .\main\templates\index.html:58
+#: .\main\templates\index.html:101
 msgid "Text1Message"
 msgstr ""
 "EVERY SANE PERSON WANTS TO PRESERVE AND MAINTAIN THEIR HEALTH, YOUTH AND "
@@ -1243,7 +1259,7 @@ msgstr ""
 "ILLNESS. OUR PRODUCTS SUPPORT THE DOCTORS' TREATMENT AND IT CAN BE SEEN IN "
 "THE RESULTS OF EXAMINATIONS. "
 
-#: .\main\templates\index.html:61
+#: .\main\templates\index.html:104
 msgid "Text2Message"
 msgstr ""
 "FOR 27 YEARS THE SCIENTIFIC COUNCIL HAS BEEN WORKING ON THE IMPROVEMENT OF "
@@ -1251,17 +1267,9 @@ msgstr ""
 "IN OUR ONLINE STORE, WHEN YOU OPEN A PRODUCT, YOU WILL READ ABOUT IT AND SEE "
 "THE EUROPEAN CERTIFICATE. PLEASE CONTACT US IF YOU HAVE ANY QUESTIONS."
 
-#: .\main\templates\index.html:63
+#: .\main\templates\index.html:106
 msgid "Text3Message"
 msgstr "YOUR ADVISOR - LIUDMYLA LAVRINENKO."
-
-#: .\main\templates\index.html:66
-msgid "ShopMessage"
-msgstr "SHOP"
-
-#: .\main\templates\index.html:67
-msgid "RegistrationMessage"
-msgstr "REGISTRATION"
 
 #: .\main\views.py:11
 msgid "StatusMsg"
