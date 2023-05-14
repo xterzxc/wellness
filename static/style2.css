@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
 
 :root {
-  --bg_color: #056e17;
-  --text_color: white;
+  --bg_color: white;
+  --text_color: black;
 }
 * {
   margin: 0;
@@ -48,7 +48,7 @@ body {
 
 .dropbtn {
   background-color: rgba(28,28,28,0);
-  color: white;
+  color: black;
   padding: 16px;
   font-size: 16px;
   border: none;
