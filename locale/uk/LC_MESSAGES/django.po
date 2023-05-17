@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-14 15:14+0200\n"
+"POT-Creation-Date: 2023-05-15 22:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1230,29 +1230,39 @@ msgstr ""
 msgid "Connect, get help, or contribute"
 msgstr ""
 
-#: .\main\templates\index.html:24
-msgid "MainText"
-msgstr "КОЖНА РОЗСУДЛИВА ЛЮДИНА БАЖАЄ ЗБЕРЕГТИ І ПІДТРИМАТИ СВОЄ ЗДОРОВ'Я, МОЛОДІСТЬ І КРАСУ, АКТИВНО ПРАЦЮВАТИ, ДОСЯГАТИ УСПІШНИХ ЦІЛЕЙ У ЖИТТІ, ПРАЦІ, СПОРТІ. ВИКОРИСТОВУЮЧИ ПРИРОДНІ РЕСУРСИ СИБІРУ, БАГАТО СПОРТСМЕНІВ ДОМОГЛИСЯ СВІТОВИХ ПЕРЕМОГ. МІЛЬЙОНИ ЛЮДЕЙ ПІДТРИМАЛИ СВОЄ ЗДОРОВ'Я, І ВИЙШЛИ З ХВОРОБИ. НАШІ ПРОДУКТИ ПІДТРИМУЮТЬ ЛІКУВАННЯ ЛІКАРІВ І ЦЕ ВИДНО НА РЕЗУЛЬТАТАХ ОБСТЕЖЕНЬ. ПРОТЯГОМ 27 РОКІВ ВЧЕНА РАДА ПРАЦЮЄ НАД УДОСКОНАЛЕННЯМ СКЛАДУ ПРОДУКТІВ, ЕФЕКТИВНІСТЮ ДІЇ НА ОРГАНІЗМ. В ІНТЕРНЕТ МАГАЗИНІ, ВІДКРИВШИ ПРОДУКТ, ПРОЧИТАЄТЕ ПРО НЬОГО І ПОБАЧИТЕ ЄВРОПЕЙСЬКИЙ СЕРТИФІКАТ. ЗВЕРТАЙТЕСЯ З БУДЬ-ЯКОГО ПИТАННЯ. ВАШ КОНСУЛЬТАНТ - ЛЮДМИЛА ЛАВРІНЕНКО."
+#: .\main\templates\index.html:25
+msgid "TitleMobile"
+msgstr "Запрошуємо у світ здоров'я, молодості та краси"
 
-#: .\main\templates\index.html:28 .\main\templates\index.html:110
+#: .\main\templates\index.html:27
+msgid "MainText"
+msgstr ""
+"КОЖНА РОЗСУДЛИВА ЛЮДИНА БАЖАЄ ЗБЕРЕГТИ І ПІДТРИМАТИ СВОЄ ЗДОРОВ'Я, МОЛОДІСТЬ "
+"І КРАСУ, АКТИВНО ПРАЦЮВАТИ, ДОСЯГАТИ УСПІШНИХ ЦІЛЕЙ У ЖИТТІ, ПРАЦІ, СПОРТІ. "
+"ВИКОРИСТОВУЮЧИ ПРИРОДНІ РЕСУРСИ СИБІРУ, БАГАТО СПОРТСМЕНІВ ДОМОГЛИСЯ "
+"СВІТОВИХ ПЕРЕМОГ. МІЛЬЙОНИ ЛЮДЕЙ ПІДТРИМАЛИ СВОЄ ЗДОРОВ'Я І ВИЙШЛИ З "
+"ХВОРОБИ. НАШІ ПРОДУКТИ ПІДТРИМУЮТЬ ЛІКУВАННЯ ЛІКАРІВ І ЦЕ ВИДНО НА "
+"РЕЗУЛЬТАТАХ ОБСТЕЖЕНЬ. ПРОТЯГОМ 27 РОКІВ ВЧЕНА РАДА ПРАЦЮЄ НАД "
+"УДОСКОНАЛЕННЯМ СКЛАДУ ПРОДУКТІВ, ЕФЕКТИВНІСТЮ ДІЇ НА ОРГАНІЗМ. В ІНТЕРНЕТ "
+"МАГАЗИНІ, ВІДКРИВШИ ПРОДУКТ, ПРОЧИТАЄТЕ ПРО НЬОГО І ПОБАЧИТЕ ЄВРОПЕЙСЬКИЙ "
+"СЕРТИФІКАТ. ЗВЕРТАЙТЕСЯ З БУДЬ-ЯКОГО ПИТАННЯ. ВАШ КОНСУЛЬТАНТ - ЛЮДМИЛА "
+"ЛАВРІНЕНКО."
+
+#: .\main\templates\index.html:34 .\main\templates\index.html:115
 msgid "RegistrationMessage"
 msgstr "РЕЄСТРАЦІЯ"
 
-#: .\main\templates\index.html:29 .\main\templates\index.html:109
+#: .\main\templates\index.html:35 .\main\templates\index.html:114
 msgid "ShopMessage"
 msgstr "МАГАЗИН"
 
-#: .\main\templates\index.html:31
-msgid "ChangeLanguage"
-msgstr "Змінити мову"
-
-#: .\main\templates\index.html:99
+#: .\main\templates\index.html:104
 msgid "WelcomeHeading"
 msgstr ""
 "МИ ПРОПОНУЄМО БІОЛОГІЧНО АКТИВНІ ПРОДУКТИ З ПРИРОДИ СИБІРУ ДЛЯ ДОРОСЛИХ І "
 "ДІТЕЙ."
 
-#: .\main\templates\index.html:101
+#: .\main\templates\index.html:106
 msgid "Text1Message"
 msgstr ""
 "КОЖНА РОЗСУДЛИВА ЛЮДИНА БАЖАЄ ЗБЕРЕГТИ І ПІДТРИМАТИ СВОЄ ЗДОРОВ'Я, МОЛОДІСТЬ "
@@ -1262,7 +1272,7 @@ msgstr ""
 "ХВОРОБИ. НАШІ ПРОДУКТИ ПІДТРИМУЮТЬ ЛІКУВАННЯ ЛІКАРІВ І ЦЕ ВИДНО НА "
 "РЕЗУЛЬТАТАХ ОБСТЕЖЕНЬ."
 
-#: .\main\templates\index.html:104
+#: .\main\templates\index.html:109
 msgid "Text2Message"
 msgstr ""
 "ПРОТЯГОМ 27 РОКІВ ВЧЕНА РАДА ПРАЦЮЄ НАД УДОСКОНАЛЕННЯМ СКЛАДУ ПРОДУКТІВ, "
@@ -1270,7 +1280,7 @@ msgstr ""
 "ПРОЧИТАЄТЕ ПРО НЬОГО І ПОБАЧИТЕ ЄВРОПЕЙСЬКИЙ СЕРТИФІКАТ. ЗВЕРТАЙТЕСЯ З БУДЬ-"
 "ЯКОГО ПИТАННЯ."
 
-#: .\main\templates\index.html:106
+#: .\main\templates\index.html:111
 msgid "Text3Message"
 msgstr "ВАШ КОНСУЛЬТАНТ - ЛЮДМИЛА ЛАВРІНЕНКО."
 
@@ -1278,26 +1288,44 @@ msgstr "ВАШ КОНСУЛЬТАНТ - ЛЮДМИЛА ЛАВРІНЕНКО."
 msgid "StatusMsg"
 msgstr ""
 
-#: .\wellness\settings.py:117
+#: .\wellness\settings.py:118
 msgid "English"
 msgstr ""
 
-#: .\wellness\settings.py:118
+#: .\wellness\settings.py:119
 msgid "Slovak"
 msgstr ""
 
-#: .\wellness\settings.py:119
+#: .\wellness\settings.py:120
 msgid "Russian"
 msgstr ""
 
-#: .\wellness\settings.py:120
+#: .\wellness\settings.py:121
 msgid "Czech"
 msgstr ""
 
-#: .\wellness\settings.py:121
+#: .\wellness\settings.py:122
 msgid "Ukrainian"
 msgstr ""
 
-#: .\wellness\settings.py:122
+#: .\wellness\settings.py:123
 msgid "German"
 msgstr ""
+
+#, fuzzy
+#~| msgid "MainText"
+#~ msgid "MainTitle"
+#~ msgstr ""
+#~ "Запрошуємо у світ здоров'я, молодості та красиКОЖНА РОЗСУДЛИВА ЛЮДИНА "
+#~ "БАЖАЄ ЗБЕРЕГТИ І ПІДТРИМАТИ СВОЄ ЗДОРОВ'Я, МОЛОДІСТЬ І КРАСУ, АКТИВНО "
+#~ "ПРАЦЮВАТИ, ДОСЯГАТИ УСПІШНИХ ЦІЛЕЙ У ЖИТТІ, ПРАЦІ, СПОРТІ. ВИКОРИСТОВУЮЧИ "
+#~ "ПРИРОДНІ РЕСУРСИ СИБІРУ, БАГАТО СПОРТСМЕНІВ ДОМОГЛИСЯ СВІТОВИХ ПЕРЕМОГ. "
+#~ "МІЛЬЙОНИ ЛЮДЕЙ ПІДТРИМАЛИ СВОЄ ЗДОРОВ'Я, І ВИЙШЛИ З ХВОРОБИ. НАШІ "
+#~ "ПРОДУКТИ ПІДТРИМУЮТЬ ЛІКУВАННЯ ЛІКАРІВ І ЦЕ ВИДНО НА РЕЗУЛЬТАТАХ "
+#~ "ОБСТЕЖЕНЬ. ПРОТЯГОМ 27 РОКІВ ВЧЕНА РАДА ПРАЦЮЄ НАД УДОСКОНАЛЕННЯМ СКЛАДУ "
+#~ "ПРОДУКТІВ, ЕФЕКТИВНІСТЮ ДІЇ НА ОРГАНІЗМ. В ІНТЕРНЕТ МАГАЗИНІ, ВІДКРИВШИ "
+#~ "ПРОДУКТ, ПРОЧИТАЄТЕ ПРО НЬОГО І ПОБАЧИТЕ ЄВРОПЕЙСЬКИЙ СЕРТИФІКАТ. "
+#~ "ЗВЕРТАЙТЕСЯ З БУДЬ-ЯКОГО ПИТАННЯ. ВАШ КОНСУЛЬТАНТ - ЛЮДМИЛА ЛАВРІНЕНКО."
+
+#~ msgid "ChangeLanguage"
+#~ msgstr "Змінити мову"
