@@ -131,7 +131,7 @@ LANGUAGES = (
 
 STATIC_URL = "/static/"
 
-STATIC_ROOT = "/root/wellness/main/static/"
+STATIC_ROOT = "main/static/"
 
 
 # Default primary key field type
