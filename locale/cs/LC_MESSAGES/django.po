@@ -1243,7 +1243,7 @@ msgstr ""
 "VĚDECKÁ RADA NA ZLEPŠOVÁNÍ SLOŽENÍ NAŠICH VÝROBKŮ A ÚČINNOSTI JEJICH "
 "PŮSOBENÍ NA ORGANISMUS. KDYŽ SI OTEVŘETE VÝROBEK V NAŠEM E-SHOPU, MŮŽETE SI "
 "O NĚM PŘEČÍST A PROHLÉDNOUT SI JEHO EVROPSKÝ CERTIFIKÁT. NEVÁHEJTE NÁS "
-"KONTAKTOVAT, POKUD MÁTE JAKÉKOLI DOTAZY. VÁŠ PORADCE - LUDMILA LAVRINENKO."
+"KONTAKTOVAT, POKUD MÁTE JAKÉKOLI DOTAZY. VÁŠ PORADCE - LOREN IPSUM."
 
 #: .\main\templates\index.html:34 .\main\templates\index.html:115
 msgid "RegistrationMessage"
@@ -1277,7 +1277,7 @@ msgstr ""
 
 #: .\main\templates\index.html:111
 msgid "Text3Message"
-msgstr "VÁŠ KONZULTANT LIUDMYLA LAVRINENKO."
+msgstr "VÁŠ KONZULTANT LOREEEEN IPSUUUUUUUM."
 
 #: .\main\views.py:11
 msgid "StatusMsg"
@@ -1320,7 +1320,7 @@ msgstr ""
 #~ "NA ZLEPŠOVÁNÍ SLOŽENÍ NAŠICH VÝROBKŮ A ÚČINNOSTI JEJICH PŮSOBENÍ NA "
 #~ "ORGANISMUS. KDYŽ SI OTEVŘETE VÝROBEK V NAŠEM E-SHOPU, MŮŽETE SI O NĚM "
 #~ "PŘEČÍST A PROHLÉDNOUT SI JEHO EVROPSKÝ CERTIFIKÁT. NEVÁHEJTE NÁS "
-#~ "KONTAKTOVAT, POKUD MÁTE JAKÉKOLI DOTAZY. VÁŠ PORADCE - LUDMILA LAVRINENKO."
+#~ "KONTAKTOVAT, POKUD MÁTE JAKÉKOLI DOTAZY. VÁŠ PORADCE - LOREN IPSUM."
 
 #~ msgid "ChangeLanguage"
-#~ msgstr "změna jazyka"
+#~ msgstr "Změna jazyka"
